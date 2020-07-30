@@ -2,7 +2,6 @@
 
 # Project Overview
 
-This app allows you to have a daily log of workplace events & situations. You could create a user and job place, repeat job sites, update logs and delete logs. 
 
 ## Project Schedule
 
