@@ -68,15 +68,15 @@ Once complete tally up the time and determine how long the project will take to 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Pull data using api | H | 8hr | -hr | -hr|
-| Create user | H | 3hr | 3hr | -hr|
-| Log events | H | H | 3hr | -hr|
+| Create user | H | 3hr | hr | -hr|
+| Log events | H | 3hr | hr | -hr|
 | Log job place | H | 1.5hr| -hr | -hr |
-| Update logs| H | 4hr | 2hr | -hr|
-| Delete logs | H | 3hrs| 2hr | -hr |
+| Update logs| H | 4hr | hr | -hr|
+| Delete logs | H | 3hrs| hr | -hr |
 | Display with html/css/js | H | 10hr | -hr | -hr|
-| Adapt to desktop | H | 1hr | 8hr | -hr|
-| Adapt to tablet | H | 1hr | 4hr | -hr|
-| Adapt to mobile | H | 1hr | 4hr | -hr|
+| Adapt to desktop | H | 8hr | hr | -hr|
+| Adapt to tablet | H | 4hr | hr | -hr|
+| Adapt to mobile | H | 4hr | hr | -hr|
 | Deploy | H | 1hr | 4hr | -hr|
 | Total | H | -hrs| -hrs | -hrs |
 
