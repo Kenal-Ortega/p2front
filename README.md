@@ -77,19 +77,16 @@ Once complete tally up the time and determine how long the project will take to 
 | Adapt to desktop | H | 8hr | hr | -hr|
 | Adapt to tablet | H | 4hr | hr | -hr|
 | Adapt to mobile | H | 4hr | hr | -hr|
-| Deploy | H | 1hr | 4hr | -hr|
-| Total | H | -hrs| -hrs | -hrs |
+| Deploy | H | 1hr | hr | -hr|
+| Total | H | 52.5hrs| -hrs | -hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Project Hover | L | 3hr | -hr | -hr|
-| Banner letters wiggle | L | 1hr | -hr | -hr|
-| Interactive Banner | M | 4hr | -hr | -hr|
-| Materialize | H | 4hr | -hr | -hr|
-| Bootstrap | H | 4hr | -hr | -hr|
-| Make own icon | L | 4hr | -hr | -hr|
-| Total | H | 20hrs| -hrs | -hrs |
+| Refactor to bootstrap | L | 5hr | -hr | -hr|
+| Link page to DOL | L | 2hr | -hr | -hr|
+| Link page to NYS bar association | M | 1hr | -hr | -hr|
+| Total | H | 8hrs| -hrs | -hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
