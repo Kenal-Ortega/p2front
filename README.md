@@ -9,8 +9,7 @@
 |---|---| ---|
 |Day 1| Project Description | Incomplete
 |Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Incomplete
-|Day 2| Working RestAPI | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 4| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Day 4| MVP & Bug Fixes | Incomplete
 |Day 5| Final Touches and Present | Incomplete
 
@@ -37,12 +36,6 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 #### MVP (examples)
 
-- Pull data using  api
-- Allow user to create user
-- Allow user to log events
-- Allow user to log job place
-- Allow user to update logs
-- Allow user to delete logs
 - Render data on page
 - Adapt to desktop, tablet, & mobile
 - Deploy app
@@ -60,18 +53,12 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Pull data using api | H | 8hr | -hr | -hr|
-| Create user | H | 3hr | hr | -hr|
-| Log events | H | 3hr | hr | -hr|
-| Log job place | H | 1.5hr| -hr | -hr |
-| Update logs| H | 4hr | hr | -hr|
-| Delete logs | H | 3hrs| hr | -hr |
 | Display with html/css/js | H | 10hr | -hr | -hr|
 | Adapt to desktop | H | 8hr | hr | -hr|
 | Adapt to tablet | H | 4hr | hr | -hr|
 | Adapt to mobile | H | 4hr | hr | -hr|
 | Deploy | H | 1hr | hr | -hr|
-| Total | H | 52.5hrs| -hrs | -hrs |
+| Total | H | 27hrs| -hrs | -hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
