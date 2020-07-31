@@ -31,7 +31,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 ## Time/Priority Matrix 
 
-- [Graphic] (https://res.cloudinary.com/dlcjnygpy/image/upload/v1596192523/0_e0clgi.jpg)
+- [Graphic](https://res.cloudinary.com/dlcjnygpy/image/upload/v1596192523/0_e0clgi.jpg)
 
 ### MVP/PostMVP - 
 
