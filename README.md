@@ -22,9 +22,9 @@ This app allows you to have a daily log of workplace events & situations. You co
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile] N/A
-- [Tablet] N/A
-- [Desktop] N/A
+- [Mobile](https://res.cloudinary.com/dlcjnygpy/image/upload/v1596210076/Project-01/20200731_113109_en5mso.jpg)
+- [Tablet](https://res.cloudinary.com/dlcjnygpy/image/upload/v1596210072/Project-01/20200731_113105_o8bsdz.jpg)
+- [Desktop](https://res.cloudinary.com/dlcjnygpy/image/upload/v1596210063/Project-01/20200731_113056_nbyf2s.jpg)
 
 
 
