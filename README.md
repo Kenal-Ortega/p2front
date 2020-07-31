@@ -1,4 +1,4 @@
-# p2front
+# Project 2 Frontend
 
 # Project Overview
 
