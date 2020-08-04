@@ -1,9 +1,13 @@
+
+
 <!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>AEQUITAS</title>
@@ -31,10 +35,11 @@
           </ul>
         </div>
       </nav>
+
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4">Create User</h1>
-          <p class="lead">Create user to sumbit daily work logs.</p>
+          <p class="lead">Create user for logs. </p>
         </div>
       </div>
       <div class="container">
@@ -42,25 +47,25 @@
         <form>
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputEmail4">Name</label>
-                <input type="email" class="form-control" id="inputEmail4">
+                <label for="createuser">Name </label>
+                <input type="text" class="form-control" id="createuser">
               </div>
               <div class="form-group col-md-6">
-                <label for="inputPassword4">Position</label>
-                <input type="password" class="form-control" id="inputPassword4">
+                <label for="createposition">Position</label>
+                <input type="text" class="form-control" id="createposition">
               </div>
             </div>
                 </label>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" id="createUserBtn">Submit</button>
           </form>
       </div>
 
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4">Create Logs</h1>
-          <p class="lead">Create daily work logs. Add anything from daily tasks to minor discrepancies.</p>
+          <p class="lead">Create logs to maintain record of daily work occurance. </p>
         </div>
       </div>
       <div class="container">
@@ -68,76 +73,20 @@
         <form>
             <div class="form-row">
               <div class="form-group col-md-6">
-                <label for="inputEmail4">Date</label>
-                <input type="email" class="form-control" id="inputEmail4">
+                <label for="createdate">Date</label>
+                <input type="text" class="form-control" id="createdate">
               </div>
               <div class="form-group col-md-6">
-                <label for="inputPassword4">Log</label>
-                <input type="password" class="form-control" id="inputPassword4">
+                <label for="createlog">Log</label>
+                <input type="text" class="form-control" id="createlog">
               </div>
             </div>
                 </label>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" id="createUserBtn">Submit</button>
           </form>
       </div>
-
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Edit Logs</h1>
-          <p class="lead">Edit previous logs. </p>
-        </div>
-      </div>
-      <div class="container">
-        <!-- Content here -->
-        <form>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputEmail4">Date </label>
-                <input type="email" class="form-control" id="inputEmail4">
-              </div>
-              <div class="form-group col-md-6">
-                <label for="inputPassword4">Log</label>
-                <input type="password" class="form-control" id="inputPassword4">
-              </div>
-            </div>
-                </label>
-              </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-      </div>
-
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Delete Logs</h1>
-          <p class="lead">Delete previous logs.</p>
-        </div>
-      </div>
-      <div class="container">
-        <!-- Content here -->
-        <form>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputEmail4">blank</label>
-                <input type="email" class="form-control" id="inputEmail4">
-              </div>
-              <div class="form-group col-md-6">
-                <label for="inputPassword4">blank</label>
-                <input type="password" class="form-control" id="inputPassword4">
-              </div>
-            </div>
-                </label>
-              </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-      </div>
-
-
-
-      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
