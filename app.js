@@ -1,3 +1,6 @@
+//Even though not used Jordan helped me understand the jQuery on lines 34-54
+//Narissa als helped me create the edit function on lines 160-176
+
 
 const deployedURL = "https://p2back93.herokuapp.com/";
 const URL = deployedURL ? deployedURL : "http://localhost:3000";
