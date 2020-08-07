@@ -93,6 +93,21 @@ const deleteLog = async (event) => {
 ```
 
 ## Issues and Resolutions
-I originally had a table, but had to ditch the idea to finish to project in time.
+
+#### I originally had a table with bootstrap, but had to ditch the idea to finish to project in time. Instead I made two div's to display the info.
+
+```
+ <div>
+            <input type=text name=name id="editinput"/>
+    <select name="logs">
+    </select>
+        </div>
+        <div>
+        <ul class="display1">
+        </ul>
+    </div>
+    ```
+
+
 
 
