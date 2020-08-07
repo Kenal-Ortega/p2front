@@ -1,6 +1,7 @@
 # Project 2 Frontend
 
-# Project Overview
+## Live Website
+https://blissful-carson-738adf.netlify.app/
 
 
 ## Project Schedule
