@@ -106,8 +106,4 @@ const deleteLog = async (event) => {
         <ul class="display1">
         </ul>
     </div>
-    ```
-
-
-
-
+ ```
