@@ -1,17 +1,18 @@
 # Project 2 Frontend
 
-# Project Overview
+## Live Website
+https://blissful-carson-738adf.netlify.app/
 
 
 ## Project Schedule
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Incomplete
-|Day 4| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches and Present | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline `backend` and `frontend`| Complete
+|Day 4| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 4| MVP & Bug Fixes | Complete
+|Day 5| Final Touches and Present | Complete
 
 ## Project Description
 
@@ -53,41 +54,56 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Display with html/css/js | H | 10hr | -hr | -hr|
-| Adapt to desktop | H | 8hr | hr | -hr|
-| Adapt to tablet | H | 4hr | hr | -hr|
-| Adapt to mobile | H | 4hr | hr | -hr|
-| Deploy | H | 1hr | hr | -hr|
-| Total | H | 27hrs| -hrs | -hrs |
+| Display with html/css/js | H | 10hr | 14hr | 14hr|
+| Adapt to desktop | H | 8hr | 2hr | 2hr|
+| Adapt to tablet | H | 4hr | 1hr | 1hr|
+| Adapt to mobile | H | 4hr | 1hr | 1hr|
+| Deploy | H | 1hr | 1hr | 1hr|
+| Total | H | 27hrs| 19hrs | 19hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Refactor to bootstrap | L | 5hr | -hr | -hr|
-| Link page to DOL | L | 2hr | -hr | -hr|
-| Link page to NYS bar association | M | 1hr | -hr | -hr|
-| Total | H | 8hrs| -hrs | -hrs |
+| Refactor to bootstrap | L | 5hr | 6hr | 6hr|
+| Link page to DOL | L | 2hr | N/A | N/A|
+| Link page to NYS bar association | M | 1hr | N/A | N/A|
+| Total | H | 8hrs| 6hrs | 6hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project. 
+ - Bootstrap
+ 
+ - JSON
+ 
+ - jQUERY
+ 
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+I was proud at how fast this function worked.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+const deleteLog = async (event) => {
+  const response = await fetch(`${URL}${event.target.id}`, {
+    method: "delete"
+  })
+   //update dom
+   $(".display1").empty()
+   getLogs()
 }
 ```
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+#### I originally had a table with bootstrap, but had to ditch the idea to finish to project in time. Instead I made two div's to display the info.
 
-## Previous Project Worksheet
- - [Readme's](https://github.com/jkeohan/fewd-class-repo/tree/master/final-project-worksheet/project-worksheet-examples)
- - [Best of class readme](https://github.com/jkeohan/fewd-class-repo/blob/master/final-project-worksheet/project-worksheet-examples/portfolio-gracie.md)
+```
+ <div>
+            <input type=text name=name id="editinput"/>
+    <select name="logs">
+    </select>
+        </div>
+        <div>
+        <ul class="display1">
+        </ul>
+    </div>
+ ```
