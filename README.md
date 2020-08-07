@@ -70,7 +70,12 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | Total | H | 8hrs| 6hrs | 6hrs |
 
 ## Additional Libraries
- Bootstrap. 
+ - Bootstrap
+ 
+ - JSON
+ 
+ - jQUERY
+ 
 
 ## Code Snippet
 
